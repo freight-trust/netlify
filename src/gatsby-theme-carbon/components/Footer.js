@@ -17,20 +17,18 @@ const CustomFooter = ({homepage}) => (
   <div className={cx(footerContent, { [footerContentDefault]: !homepage })}>
     <Row className={footerRow}>
       <Column colMd={3} colLg={3} colXl={3} className={footerLinkCol}>
-        <h1>FREIGHT TRUST</h1>
+        <h1>Freight Trust & Clearing</h1>
       </Column>
       <Column colMd={7} colLg={7} colXl={8}>
         <div className={footerLinkCol}>
           <div>
             <h5>Product</h5>
-            <a href="/freight">EDI/API Logs and Metrics</a>
-            <a href="/freight">EDI/API Monitoring</a>
-            <a href="/freight">Embedded Logs</a>
-            <a href="/freight">GraphQL Analytics</a>
-            <a href="/freight">Extensions</a>
-            <a href="/freight">Infrastructure</a>
-            <a href="/freight">Customs and Tariffs</a>
-            <a href="/freight">IFTA and SAFER</a>
+            <a href="/freight">X12/EDIFACT</a>
+            <a href="/freight">AS2/AS4</a>
+            <a href="/freight">MFT/MFD</a>
+            <a href="/freight">EDICOM</a>
+            <a href="/freight">OFTP2</a>
+            <a href="/freight">PEPPOL</a>
           </div>
           <div>
             <h5>Corporate</h5>
@@ -47,19 +45,18 @@ const CustomFooter = ({homepage}) => (
             <a href="/freight">Trucking</a>
             <a href="/freight">Maritime</a>
             <a href="/freight">Intermodal</a>
-            <a href="/freight">NVOCCs</a>
+            <a href="/freight">Freight Forwarders</a>
+            <a href="/freight">Brokers & 3PLs</a>
+            <a href="/freight">Rail & Air</a>
           </div>
           <div>
             <h5>Resources</h5>
             <a href="/freight">Documentation</a>
             <a href="/freight">Open Source</a>
             <a href="/freight">Developer Relations</a>
-            <a href="/freight">API Engineering</a>
-            <a href="/freight">API Security</a>
+            <a href="/freight">Engineering</a>
+            <a href="/freight">Security</a>
             <a href="/freight">Customer Success</a>
-            <a href="/freight">Network Stats</a>
-            <a href="/freight">Block Explorer</a>
-            <a href="/freight">Smart Contract Addresses</a>
           </div>
         </div>
       </Column>
@@ -81,22 +78,23 @@ const CustomFooter = ({homepage}) => (
 
     <Row className={footerDiectoryRow}>
       <Column colMd={6} colLg={6}>
-        <p>Address: 1424 4TH ST, STE 214 PMB 1513, SANTA MONICA, California, US, 90401</p>
+        <p>1424 4TH ST Santa Monica, CA</p>
+        <p></p>
         <p>LEI: 254900C9UJMDGJ0ILK56</p>
-        <p>tel:(628) 222 - 5915</p>
-        <p>fax:(818) 457 - 5660</p>
+        <p>support@freight.zendesk.com</p>
+        <p></p>
       </Column>
       <Column colMd={2} colLg={2}></Column>
       <Column colMd={2} colLg={2}>
-        <a href="https://twitter.com/freighttrustnet">Twitter</a>
-        <a href="#top">Linkedin</a>
-        <a href="#top">Medium</a>
-        <a href="https://t.me/freighttrust">Telegram</a>
+        <a href="https://twitter.com/freighttrustnet">Investors</a>
+        <a href="#top">Partnerships</a>
+        <a href="https://medium.com/freighttrust">Compliance</a>
+        <a href="https://t.me/freighttrust">Exchange</a>
       </Column>
       <Column colMd={2} colLg={2}>
-        <a href="https://github.com/freight-chain">Github</a>
-        <a href="#top">Gitlab</a>
-        <a href="#top">Docker</a>
+        <a href="https://github.com/freight-chain">GitHub Community</a>
+        <a href="https://gitlab.com/fr8">GitLab Devops</a>
+        <a href="https://hub.docker.com/r/freightcorp">Docker Hub</a>
       </Column>
     </Row>
 
